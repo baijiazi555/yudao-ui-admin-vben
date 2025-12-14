@@ -189,7 +189,11 @@
   ],
 
   "github.copilot.enable": {
-    "*": false
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "vue": true
   },
 
   "cssVariables.lookupFiles": ["packages/core/base/design/src/**/*.css"],
