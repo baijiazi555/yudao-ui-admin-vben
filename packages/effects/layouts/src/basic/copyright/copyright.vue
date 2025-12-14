@@ -14,7 +14,7 @@ defineOptions({
 withDefaults(defineProps<Props>(), {
   companyName: 'Vben Admin',
   companySiteLink: '',
-  date: '2024',
+  date: '2025',
   icp: '',
   icpLink: '',
 });
@@ -38,11 +38,11 @@ withDefaults(defineProps<Props>(), {
     <!-- Company Link -->
     <a
       v-if="companyName"
-      :href="companySiteLink || 'javascript:void(0)'"
+      href=""
       class="hover:text-primary-hover mx-1"
       target="_blank"
     >
-      {{ companyName }}
+      中安启成
     </a>
   </div>
 </template>

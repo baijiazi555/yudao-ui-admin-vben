@@ -96,9 +96,7 @@ const logoSrc = computed(() => {
             class="mr-2"
             width="42"
           />
-          <p v-if="appName" class="m-0 text-xl font-medium">
-            {{ appName }}
-          </p>
+          <p v-if="appName" class="m-0 text-xl font-medium">软件造价系统</p>
         </div>
       </div>
     </slot>

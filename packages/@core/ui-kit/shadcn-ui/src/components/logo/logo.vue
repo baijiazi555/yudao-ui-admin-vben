@@ -83,7 +83,7 @@ const logoSrc = computed(() => {
       <template v-if="!collapsed">
         <slot name="text">
           <span class="truncate text-nowrap font-semibold text-foreground">
-            {{ text }}
+            软件造价
           </span>
         </slot>
       </template>
